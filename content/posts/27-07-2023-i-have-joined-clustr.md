@@ -3,7 +3,7 @@ title: "I've joined Clustr"
 date: 2023-07-27
 draft: false
 ---
-My plan with Tiny Projects didn’t go according to plan. Sometime in March, Tim, who I played football with back in Manchester, approached me and proposed to join his startup. We have never been close and haven’t spoken since my uni years, so I was both surprised and flattered to be contacted.
+My idea with Tiny Projects didn’t go according to plan. Sometime in March, Tim, who I played football with back in Manchester, approached me and proposed to join his startup. We have never been close and haven’t spoken since my uni years, so I was both surprised and flattered to be contacted.
 
 # Oh no, is it... crypto?
 The project is called Clustr. It is a crypto/web3 project. Not something I am fond of, I will be honest. However, the idea is somewhat useful. In a nutshell, Clustr would allow users to make better investment decisions by analysing the current state of the market, ranking existing coins based on the methodology (available publicly for anyone to judge for themselves), creating demo portfolios or importing existing ones, and analyse them based on a pre-defined set of metrics. It will grow into an investment platform, providing users with various investment insights to help them make better investment decisions. Newbies to the market could learn how to build crypto portfolios step-by-step while being exposed to the driving forces behind the decision-making made by professionals in an easy-to-digest form. More sophisticated users would benefit from the platform’s insights (such as growth projections) and a large selection of rated coins. Feel free to check the [landing page](https://www.clustr.io/).
