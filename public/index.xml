@@ -5,6 +5,26 @@
     <link>https://k1ngartes.github.io/</link>
     <description>Recent content on Terminal</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://k1ngartes.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Thu, 19 Jan 2023 21:44:59 +0000</lastBuildDate><atom:link href="https://k1ngartes.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tiny projects</title>
+      <link>https://k1ngartes.github.io/posts/tiny-projects/</link>
+      <pubDate>Thu, 19 Jan 2023 21:44:59 +0000</pubDate>
+      
+      <guid>https://k1ngartes.github.io/posts/tiny-projects/</guid>
+      <description>I first encountered the idea of Tiny Projects in the TinyWebsite. The concept that sounded strange at first occupied my mind for days - what if I could set myself to deliver the project every couple of months without worrying about it being perfect? Unfortunately, I have always struggled to see my creations make it to production; it&amp;rsquo;s always &amp;ldquo;one more feature&amp;rdquo; or &amp;ldquo;one more bug to fix&amp;rdquo;. Following the &amp;ldquo;tiny&amp;rdquo; methodology is an attempt to overcome those mental blocks, see my projects graduate the incubator stage, and learn something new.</description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://k1ngartes.github.io/posts/my-first-post/</link>
+      <pubDate>Mon, 16 Jan 2023 20:21:59 +0000</pubDate>
+      
+      <guid>https://k1ngartes.github.io/posts/my-first-post/</guid>
+      <description>Capillis inania lanam sequente Achillis umeros noctes Hoc ego vocatur rudis corpora matres egissem Lorem markdownum iunctis mortis est saltibus morantia magis freta ibat caute inscius. Ictus est flectere terram condit tenuerunt collis ipse Ausonio!
+Rastrique Delius illo Aiax forma inde habitatis misit Hoc glaebam Vobis pia Amor nigra Cereris Quibus usque pennis umeris Corycidas natas tinguitur volatile caput Et verbaque debita aetate dixerat Arethusa mortisque matrem, hosti anus delphina quod albentia.</description>
+    </item>
+    
   </channel>
 </rss>
