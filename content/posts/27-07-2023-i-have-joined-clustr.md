@@ -22,6 +22,8 @@ Clustr launched on the 7th of July on [ProductHunt](https://www.producthunt.com/
 * Create up to three demo portfolios in a guided step-by-step process.
 * Inspect individual portfolio views, including monthly performance, ATH, ATL, AAR, internally calculated “risk” value and portfolio rank.
 
+You can try the app [here](https://app.clustr.io/).
+
 {{< figure src="/27-07-2023-i-have-joined-clustr/main_page.png" title="An elephant at sunset" caption="View of the main page">}}
 {{< figure src="/27-07-2023-i-have-joined-clustr/portfolio_view.png" title="An elephant at sunset" caption="View of the single portfolio page">}}
 
