@@ -1,38 +1,90 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Terminal</title><link>https://k1ngartes.github.io/</link><description>Recent content on Terminal</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 27 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://k1ngartes.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>I've joined Clustr</title><link>https://k1ngartes.github.io/posts/27-07-2023-i-have-joined-clustr/</link><pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate><guid>https://k1ngartes.github.io/posts/27-07-2023-i-have-joined-clustr/</guid><description>My idea with Tiny Projects didn’t go according to plan. Sometime in March, Tim, who I played football with back in Manchester, approached me and proposed to join his startup. We have never been close and haven’t spoken since my uni years, so I was both surprised and flattered to be contacted.
-Oh no, is it&amp;hellip; crypto? The project is called Clustr. It is a crypto/web3 project. Not something I am fond of, I will be honest.</description><content>&lt;p>My idea with Tiny Projects didn’t go according to plan. Sometime in March, Tim, who I played football with back in Manchester, approached me and proposed to join his startup. We have never been close and haven’t spoken since my uni years, so I was both surprised and flattered to be contacted.&lt;/p>
-&lt;h1 id="oh-no-is-it-crypto">Oh no, is it&amp;hellip; crypto?&lt;/h1>
-&lt;p>The project is called Clustr. It is a crypto/web3 project. Not something I am fond of, I will be honest. However, the idea is somewhat useful. In a nutshell, Clustr would allow users to make better investment decisions by analysing the current state of the market, ranking existing coins based on the methodology (available publicly for anyone to judge for themselves), creating demo portfolios or importing existing ones, and analyse them based on a pre-defined set of metrics. It will grow into an investment platform, providing users with various investment insights to help them make better investment decisions. Newbies to the market could learn how to build crypto portfolios step-by-step while being exposed to the driving forces behind the decision-making made by professionals in an easy-to-digest form. More sophisticated users would benefit from the platform’s insights (such as growth projections) and a large selection of rated coins. Feel free to check the &lt;a href="https://www.clustr.io/">landing page&lt;/a>.&lt;/p>
-&lt;p>It doesn’t sound that bad. But let’s be frank, the bar is extremely low; not being a scam in the crypto world is considered a rarity. In addition, I do not consider myself a proper crypto-investor; I did invest during the frenzy and eventually gave up when the market crashed, so my knowledge on the matter is minimal. However, I imagine myself continuing to invest if I had an educational resource to teach me the “proper” way. Clustr could be just what people like me need.&lt;/p>
-&lt;h1 id="april-fools">April fools&lt;/h1>
-&lt;p>On the 1st of April, I joined the team as a lead backend engineer. The decision didn’t come lightly, and I went back and forth for some time. Was I willing to dedicate my most valuable resource - time, to someone else&amp;rsquo;s dream startup? Crypto is not something I would do myself. Add to it an alien tech stack (Python, Django, GraphQL) and tight deadlines. What about the team of people I have never seen before? What about the previous startups failing miserably with absolutely 0£ landing into my account (more like costing me tens of thousands in time alone)? I guess the time will show, but I imagine myself going insane waiting for something perfect to arrive at my doorstep. I have tried launching a website creation agency in The White Robot, attempted to hit it big with grocery deliveries at &lt;a href="https://devo.co.uk/">Devo&lt;/a>, and now it is time to make my shot in cryptocurrency with Clustr.&lt;/p>
-&lt;p>&lt;img src="https://k1ngartes.github.io/27-07-2023-i-have-joined-clustr/3_months_later.jpg" alt="3 months later">&lt;/p>
-&lt;p>Clustr launched on the 7th of July on &lt;a href="https://www.producthunt.com/products/clustr#clustr">ProductHunt&lt;/a>. We have built a stable lander, web application, and backend system in three months without too many hacks. The core functionality of version 1.0:&lt;/p>
-&lt;ul>
-&lt;li>Allow users to inspect the selection of more than 700 coins.&lt;/li>
-&lt;li>Inspect coin prices, capitalisation, and Clustr rank.&lt;/li>
-&lt;li>Registration process via the magic link.&lt;/li>
-&lt;li>Create up to three demo portfolios in a guided step-by-step process.&lt;/li>
-&lt;li>Inspect individual portfolio views, including monthly performance, ATH, ATL, AAR, internally calculated “risk” value and portfolio rank.&lt;/li>
-&lt;/ul>
-&lt;p>You can try the app &lt;a href="https://app.clustr.io/">here&lt;/a>.&lt;/p>
-&lt;p>
-&lt;figure class="left" >
-&lt;img src="https://k1ngartes.github.io/27-07-2023-i-have-joined-clustr/main_page.png" />
-&lt;figcaption class="center" >View of the main page&lt;/figcaption>
-&lt;/figure>
-&lt;figure class="left" >
-&lt;img src="https://k1ngartes.github.io/27-07-2023-i-have-joined-clustr/portfolio_view.png" />
-&lt;figcaption class="center" >View of the single portfolio page&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;p>From the backend perspective, the combination of unfamiliar technologies made it challenging. I only wrote basic scripts with Python before and have never tried Django. I’ve only seen others use GraphQL and have never written a GraphQL API myself. I was familiar with Docker fundamentally; I never ran DBs in Docker or did nothing close to 5+ apps running on the same VM. All of these were solvable tasks that people had done many times before, and there were more than enough tutorials on the topic so that I could find my way around. The main issue was - I was short on time. Three months is not enough to launch a startup with robust foundations from scratch when you are working a full-time job.&lt;/p>
-&lt;h1 id="a-few-thoughts-on-the-development-process-without-any-particular-order">A few thoughts on the development process without any particular order&lt;/h1>
-&lt;ul>
-&lt;li>ChatGPT was extremely useful, especially when you have no clue what you are doing. At first, I used it to write basic scripts and later adapted it to explain concepts and ideas.&lt;/li>
-&lt;li>Man, I love statically typed languages. I love knowing the shape of the data I am operating on. Sure, the initial development time in Python is low, you can write whatever the hell you want, but I am concerned about its long-term prospect. As the project grows, understanding what things do will become harder and harder. Returning to the code I wrote three months ago, I go, “What the hell am I even working on within here”. I have adapted type hinting in the project, but it is still such as chore and a forced matter that I am TRULLY not having fun.&lt;/li>
-&lt;li>You have to find your way around with data. It can be challenging to get the data you need about Crypto. And even when you get it, it is very often garbage. And you don’t have money to pay to get a better one. So you create a Frankenstein code base built with fallback-on-top-of-a-fallback trying to cover as many loopholes in your data as possible, hoping that your users will &lt;em>“avoid using coin number 643, cause it misses both market closing price, daily price, S&amp;amp;P data, and rank on the second week of January 2015”&lt;/em>.&lt;/li>
-&lt;/ul>
-&lt;p>As a result of our work, we got “The Product of the Day” and “The Product of the Week” on Product Hunt. We were in the PH weekly newsletter and appeared in its “stories” on the mobile app for the whole week. Contrary to our expectations, we didn’t get much traffic from these events. We have put extra resources into replication, performed load testing (I have used &lt;a href="https://www.artillery.io/">Artillery&lt;/a> for that), and removed some of the bottlenecks (a quick memcache solves many issues) to end up with almost no server load. I wouldn’t call it premature optimisation, as I hope we will get more and more users as time passes.&lt;/p>
-&lt;h1 id="whats-next">What&amp;rsquo;s next?&lt;/h1>
-&lt;p>For now, we are concentrating on getting “The Product of the Month”, which will (from my understanding) get us into a “big boys” league (as far as PH is concerned). We have to get our hands dirty with some internal PH politics, upvotes and comments grinding to get it. Many startups are launching along with us, some of which are already backed by investors, like Y Combinator. The results will be available on the 1st of August, which will mark four months of my time in Clustr. Despite the grind, crunch, and stress, I remain optimistic we will make it through.&lt;/p></content></item><item><title>Tiny projects</title><link>https://k1ngartes.github.io/posts/tiny-projects/</link><pubDate>Thu, 19 Jan 2023 21:44:59 +0000</pubDate><guid>https://k1ngartes.github.io/posts/tiny-projects/</guid><description>I first encountered the idea of Tiny Projects in the TinyWebsite. The concept that sounded strange at first occupied my mind for days - what if I could set myself to deliver the project every couple of months without worrying about it being perfect? Unfortunately, I have always struggled to see my creations make it to production; it&amp;rsquo;s always &amp;ldquo;one more feature&amp;rdquo; or &amp;ldquo;one more bug to fix&amp;rdquo;. Following the &amp;ldquo;tiny&amp;rdquo; methodology is an attempt to overcome those mental blocks, see my projects graduate the incubator stage, and learn something new.</description><content>&lt;p>I first encountered the idea of Tiny Projects in the &lt;a href="https://tinyprojects.dev/posts/six_months_of_tiny_projects">TinyWebsite&lt;/a>. The concept that sounded strange at first occupied my mind for days - what if I could set myself to deliver the project every couple of months without worrying about it being perfect? Unfortunately, I have always struggled to see my creations make it to production; it&amp;rsquo;s always &amp;ldquo;one more feature&amp;rdquo; or &amp;ldquo;one more bug to fix&amp;rdquo;. Following the &amp;ldquo;tiny&amp;rdquo; methodology is an attempt to overcome those mental blocks, see my projects graduate the incubator stage, and learn something new.&lt;/p>
-&lt;p>As part of my 2023 resolution, I would like to create and release several projects, each taking up to several months, and share my learnings with others. The personal blog you are reading is the first &amp;ldquo;tiny&amp;rdquo; project. Hopefully, there are many more to come!&lt;/p></content></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Artur Romanov Blog</title>
+    <link>https://k1ngartes.github.io/</link>
+    <description>Recent content on Artur Romanov Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 03 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://k1ngartes.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>On writing</title>
+      <link>https://k1ngartes.github.io/posts/on-writing/</link>
+      <pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://k1ngartes.github.io/posts/on-writing/</guid>
+      <description>On writing This is an example post</description>
+      <content>&lt;h1 id=&#34;on-writing&#34;&gt;On writing&lt;/h1&gt;
+&lt;p&gt;This is an example post&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>I&#39;ve joined Clustr</title>
+      <link>https://k1ngartes.github.io/posts/27-07-2023-i-have-joined-clustr/</link>
+      <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://k1ngartes.github.io/posts/27-07-2023-i-have-joined-clustr/</guid>
+      <description>My idea with Tiny Projects didn’t go according to plan. Sometime in March, Tim, who I played football with back in Manchester, approached me and proposed to join his startup. We have never been close and haven’t spoken since my uni years, so I was both surprised and flattered to be contacted.
+Oh no, is it&amp;hellip; crypto? The project is called Clustr. It is a crypto/web3 project. Not something I am fond of, I will be honest.</description>
+      <content>&lt;p&gt;My idea with Tiny Projects didn’t go according to plan. Sometime in March, Tim, who I played football with back in Manchester, approached me and proposed to join his startup. We have never been close and haven’t spoken since my uni years, so I was both surprised and flattered to be contacted.&lt;/p&gt;
+&lt;h1 id=&#34;oh-no-is-it-crypto&#34;&gt;Oh no, is it&amp;hellip; crypto?&lt;/h1&gt;
+&lt;p&gt;The project is called Clustr. It is a crypto/web3 project. Not something I am fond of, I will be honest. However, the idea is somewhat useful. In a nutshell, Clustr would allow users to make better investment decisions by analysing the current state of the market, ranking existing coins based on the methodology (available publicly for anyone to judge for themselves), creating demo portfolios or importing existing ones, and analyse them based on a pre-defined set of metrics. It will grow into an investment platform, providing users with various investment insights to help them make better investment decisions. Newbies to the market could learn how to build crypto portfolios step-by-step while being exposed to the driving forces behind the decision-making made by professionals in an easy-to-digest form. More sophisticated users would benefit from the platform’s insights (such as growth projections) and a large selection of rated coins. Feel free to check the &lt;a href=&#34;https://www.clustr.io/&#34;&gt;landing page&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It doesn’t sound that bad. But let’s be frank, the bar is extremely low; not being a scam in the crypto world is considered a rarity. In addition, I do not consider myself a proper crypto-investor; I did invest during the frenzy and eventually gave up when the market crashed, so my knowledge on the matter is minimal. However, I imagine myself continuing to invest if I had an educational resource to teach me the “proper” way. Clustr could be just what people like me need.&lt;/p&gt;
+&lt;h1 id=&#34;april-fools&#34;&gt;April fools&lt;/h1&gt;
+&lt;p&gt;On the 1st of April, I joined the team as a lead backend engineer. The decision didn’t come lightly, and I went back and forth for some time. Was I willing to dedicate my most valuable resource - time, to someone else&amp;rsquo;s dream startup? Crypto is not something I would do myself. Add to it an alien tech stack (Python, Django, GraphQL) and tight deadlines. What about the team of people I have never seen before? What about the previous startups failing miserably with absolutely 0£ landing into my account (more like costing me tens of thousands in time alone)? I guess the time will show, but I imagine myself going insane waiting for something perfect to arrive at my doorstep. I have tried launching a website creation agency in The White Robot, attempted to hit it big with grocery deliveries at &lt;a href=&#34;https://devo.co.uk/&#34;&gt;Devo&lt;/a&gt;, and now it is time to make my shot in cryptocurrency with Clustr.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://k1ngartes.github.io/27-07-2023-i-have-joined-clustr/3_months_later.jpg&#34; alt=&#34;3 months later&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Clustr launched on the 7th of July on &lt;a href=&#34;https://www.producthunt.com/products/clustr#clustr&#34;&gt;ProductHunt&lt;/a&gt;. We have built a stable lander, web application, and backend system in three months without too many hacks. The core functionality of version 1.0:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Allow users to inspect the selection of more than 700 coins.&lt;/li&gt;
+&lt;li&gt;Inspect coin prices, capitalisation, and Clustr rank.&lt;/li&gt;
+&lt;li&gt;Registration process via the magic link.&lt;/li&gt;
+&lt;li&gt;Create up to three demo portfolios in a guided step-by-step process.&lt;/li&gt;
+&lt;li&gt;Inspect individual portfolio views, including monthly performance, ATH, ATL, AAR, internally calculated “risk” value and portfolio rank.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can try the app &lt;a href=&#34;https://app.clustr.io/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;https://k1ngartes.github.io/27-07-2023-i-have-joined-clustr/main_page.png&#34;   /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;View of the main page&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;https://k1ngartes.github.io/27-07-2023-i-have-joined-clustr/portfolio_view.png&#34;   /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;View of the single portfolio page&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+&lt;/p&gt;
+&lt;p&gt;From the backend perspective, the combination of unfamiliar technologies made it challenging. I only wrote basic scripts with Python before and have never tried Django. I’ve only seen others use GraphQL and have never written a GraphQL API myself. I was familiar with Docker fundamentally; I never ran DBs in Docker or did nothing close to 5+ apps running on the same VM. All of these were solvable tasks that people had done many times before, and there were more than enough tutorials on the topic so that I could find my way around. The main issue was - I was short on time. Three months is not enough to launch a startup with robust foundations from scratch when you are working a full-time job.&lt;/p&gt;
+&lt;h1 id=&#34;a-few-thoughts-on-the-development-process-without-any-particular-order&#34;&gt;A few thoughts on the development process without any particular order&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;ChatGPT was extremely useful, especially when you have no clue what you are doing. At first, I used it to write basic scripts and later adapted it to explain concepts and ideas.&lt;/li&gt;
+&lt;li&gt;Man, I love statically typed languages. I love knowing the shape of the data I am operating on. Sure, the initial development time in Python is low, you can write whatever the hell you want, but I am concerned about its long-term prospect. As the project grows, understanding what things do will become harder and harder. Returning to the code I wrote three months ago, I go, “What the hell am I even working on within here”. I have adapted type hinting in the project, but it is still such as chore and a forced matter that I am TRULLY not having fun.&lt;/li&gt;
+&lt;li&gt;You have to find your way around with data. It can be challenging to get the data you need about Crypto. And even when you get it, it is very often garbage. And you don’t have money to pay to get a better one. So you create a Frankenstein code base built with fallback-on-top-of-a-fallback trying to cover as many loopholes in your data as possible, hoping that your users will &lt;em&gt;“avoid using coin number 643, cause it misses both market closing price, daily price, S&amp;amp;P data, and rank on the second week of January 2015”&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As a result of our work, we got “The Product of the Day” and “The Product of the Week” on Product Hunt. We were in the PH weekly newsletter and appeared in its “stories” on the mobile app for the whole week. Contrary to our expectations, we didn’t get much traffic from these events. We have put extra resources into replication, performed load testing (I have used &lt;a href=&#34;https://www.artillery.io/&#34;&gt;Artillery&lt;/a&gt; for that), and removed some of the bottlenecks (a quick memcache solves many issues) to end up with almost no server load. I wouldn’t call it premature optimisation, as I hope we will get more and more users as time passes.&lt;/p&gt;
+&lt;h1 id=&#34;whats-next&#34;&gt;What&amp;rsquo;s next?&lt;/h1&gt;
+&lt;p&gt;For now, we are concentrating on getting “The Product of the Month”, which will (from my understanding) get us into a “big boys” league (as far as PH is concerned). We have to get our hands dirty with some internal PH politics, upvotes and comments grinding to get it. Many startups are launching along with us, some of which are already backed by investors, like Y Combinator. The results will be available on the 1st of August, which will mark four months of my time in Clustr. Despite the grind, crunch, and stress, I remain optimistic we will make it through.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Tiny projects</title>
+      <link>https://k1ngartes.github.io/posts/tiny-projects/</link>
+      <pubDate>Thu, 19 Jan 2023 21:44:59 +0000</pubDate>
+      
+      <guid>https://k1ngartes.github.io/posts/tiny-projects/</guid>
+      <description>I first encountered the idea of Tiny Projects in the TinyWebsite. The concept that sounded strange at first occupied my mind for days - what if I could set myself to deliver the project every couple of months without worrying about it being perfect? Unfortunately, I have always struggled to see my creations make it to production; it&amp;rsquo;s always &amp;ldquo;one more feature&amp;rdquo; or &amp;ldquo;one more bug to fix&amp;rdquo;. Following the &amp;ldquo;tiny&amp;rdquo; methodology is an attempt to overcome those mental blocks, see my projects graduate the incubator stage, and learn something new.</description>
+      <content>&lt;p&gt;I first encountered the idea of Tiny Projects in the &lt;a href=&#34;https://tinyprojects.dev/posts/six_months_of_tiny_projects&#34;&gt;TinyWebsite&lt;/a&gt;. The concept that sounded strange at first occupied my mind for days -  what if I could set myself to deliver the project every couple of months without worrying about it being perfect? Unfortunately, I have always struggled to see my creations make it to production; it&amp;rsquo;s always &amp;ldquo;one more feature&amp;rdquo; or &amp;ldquo;one more bug to fix&amp;rdquo;. Following the &amp;ldquo;tiny&amp;rdquo; methodology is an attempt to overcome those mental blocks, see my projects graduate the incubator stage, and learn something new.&lt;/p&gt;
+&lt;p&gt;As part of my 2023 resolution, I would like to create and release several projects, each taking up to several months, and share my learnings with others. The personal blog you are reading is the first &amp;ldquo;tiny&amp;rdquo; project. Hopefully, there are many more to come!&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
