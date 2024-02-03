@@ -65,7 +65,7 @@ paginate = 5
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Terminal"
+    title = "Artur Romanov Blog"
     # subtitle = "A simple, retro theme for Hugo"
     owner = "Artur Romanov"
     keywords = ""
