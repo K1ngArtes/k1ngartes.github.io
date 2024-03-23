@@ -81,13 +81,3 @@ paginate = 5
     [languages.en.params.logo]
       logoText = "Arturs blog"
       logoHomeLink = "/"
-
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "Tiny projects"
-        url = "/tinyProjects"
-      [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
