@@ -162,8 +162,8 @@
 
         <div class="post-content">
           
-            Functional Options Pattern In Go I became increasingly frustrated with how I deal with optional configurations in my Go apps. Imagine that we are making a server constructor, NewServer, and want to allow clients to provide optional configuration values or otherwise use defaults. Usually, I pass a configuration struct on autopilot without too much thinking and looks something like this
-type Config struct { Port int } func NewServer(addr string, cfg Config) { .
+            I recently became increasingly frustrated with how I deal with optional configurations in my Go apps. Imagine that we are making a server constructor NewServer and want to allow clients to provide optional configuration values or otherwise use defaults. Usually, I pass a configuration struct on autopilot without too much thinking and call it a day. Usually it ends up looking like this
+type Config struct { Port int Timeout time.
           
         </div>
 
