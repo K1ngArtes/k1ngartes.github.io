@@ -4,18 +4,18 @@ date: 2024-03-21
 draft: false
 ---
 
-# Functional Options Pattern In Go
-I became increasingly frustrated with how I deal with optional configurations in my Go apps. Imagine that we are making a server constructor, `NewServer,` and want to allow clients to provide optional configuration values or otherwise use defaults. Usually, I pass a configuration struct on autopilot without too much thinking and looks something like this
+I recently became increasingly frustrated with how I deal with optional configurations in my Go apps. Imagine that we are making a server constructor `NewServer` and want to allow clients to provide optional configuration values or otherwise use defaults. Usually, I pass a configuration struct on autopilot without too much thinking and call it a day. Usually it ends up looking like this
 
 ```go
 type Config struct {
 	Port int
+	Timeout time.Time
 }
 
 func NewServer(addr string, cfg Config) { ... }
 ```
 
-This approach is flexible enough to support new configuration attributes being added but suffers from several issues
+This approach is better than passing a list of arguments `func NewServer(addr string, port int, timeout time.Time, ...)` and is flexible enough to support new configuration attributes being added in the future. However, it suffers from several issues
 
 * There is no easy way to perform validation of the attributes and return an error to the client if needed.
 * There is no way to enforce default behaviour. Default values will be used if not provided when initialising the Config struct.
@@ -23,8 +23,10 @@ This approach is flexible enough to support new configuration attributes being a
 ```go
 func NewServer(addr string, Config{}) { ... }
 ```
+
 ---
-The first solution that comes to mind is [Bulder pattern](https://refactoring.guru/design-patterns/builder). I've extensively used it when programming in Java; it is a clean and flexible pattern I find very useful. Builder in Golang might look something like this
+
+The first solution that comes to mind is [Builder pattern](https://refactoring.guru/design-patterns/builder). I've extensively used it when programming in Java; it is a very popular, clean and flexible pattern. Builder for our problem might look like this
 
 ```go
 type Config struct {
@@ -53,6 +55,7 @@ func (b *ConfigBuilder) Build() (Config, error) {
 	return cfg, nil
 }
 ```
+
 This much cleaner approach allows clients to chain calls, leaving defaults as they are. However, it still has an issue - error management becomes more challenging as we cannot return errors in builder setters and have to defer them to the `build()` stage. It's clunky and adds extra complexity.
 
 ---
